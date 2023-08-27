@@ -1,0 +1,17 @@
+/* .container{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-gap: 10px;
+} */
+
+.container {
+    display: grid;
+    /* grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr; */
+    /* grid-template: 1fr 2fr / 1fr 2fr; (row / column) this is the alternative way */
+
+    /* grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(3, 2fr); */
+    grid-template: repeat(3, 2fr) / repeat(3, 2fr);
+    grid-gap: 10px;
+}
